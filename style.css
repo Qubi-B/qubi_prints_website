@@ -10,7 +10,7 @@ body{
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   h1{
     border-bottom: 0;
     margin-bottom: 0;
