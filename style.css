@@ -27,6 +27,21 @@ h2{
   max-width: 80%;
 }
 
+@media (max-width: 600px) {
+  h1{
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 6vh;
+  }
+  h2{
+    border-top: 0;
+    margin-top: 10px;
+    padding-top: 0;
+    font-size: 4vh;
+  }
+}
+
 
 .qubi {
 	background: linear-gradient(315deg, rgba(18,60,255,1) 0%, rgba(0,212,255,1) 100%);
