@@ -10,6 +10,10 @@ body{
   text-align: center;
 }
 
+p{
+  font-size: 20px;
+}
+
 @media (max-width: 600px) {
   h1{
     border-bottom: 0;
@@ -25,7 +29,6 @@ body{
   }
 }
 
-
 h1{
   border-bottom: 0;
   margin-bottom: 0;
@@ -39,10 +42,6 @@ h2{
   font-size: 2.5vh;
 }
 
-
-p{
-  font-size: 20px;
-}
 .text{
   margin: auto;
   min-width: 50%;
