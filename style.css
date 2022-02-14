@@ -10,10 +10,6 @@ body{
   text-align: center;
 }
 
-p{
-  font-size: 20px;
-}
-
 @media (max-width: 600px) {
   h1{
     border-bottom: 0;
@@ -26,6 +22,9 @@ p{
     margin-top: 10px;
     padding-top: 0;
     font-size: 8vh;
+  }
+ p{
+  font-size: 40px;
   }
 }
 
@@ -40,6 +39,9 @@ h2{
   margin-top: 10px;
   padding-top: 0;
   font-size: 2.5vh;
+}
+p{
+  font-size: 20px;
 }
 
 .text{
