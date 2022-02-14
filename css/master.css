@@ -1,0 +1,123 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://raw.githubusercontent.com/Qubi-B/qubi_be_website/main/darkclouds.jpg');
+  background-color: #202328;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+div{
+  width: 100%;
+}
+h1{
+  font-size: 8vh;
+  vertical-align: middle;
+}
+h2{
+  vertical-align: middle;
+  font-size: 3vh;
+}
+h3{
+  padding-left: 20px;
+  vertical-align: middle;
+  font-size: 3vh;
+}
+a{
+
+
+}
+.navbar{
+  overflow: hidden;
+  background-color: #202328;
+  height: 10vh;
+  border-bottom: 2px dotted #0097e6;
+  vertical-align:middle;
+  display: table-cell;
+  position: fixed;
+  top: 0;
+}
+.table{
+  display: table;
+}
+.content{
+  vertical-align:middle;
+  height: 100vh;
+  display: table-cell;
+  position: relative;
+  padding-left: 40px;
+}
+.button{
+  background-color: transparent;
+  border: 3px solid #00a8ff;
+  border-radius: 400px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: .5s;
+  z-index: auto;
+}
+.button:hover{
+  background-color: #00a8ff;
+  border: 3px solid rgba(0, 0, 0, 1);
+}
+
+.button-main{
+  background-color: #00a8ff;
+  border: 3px solid #00a8ff;
+  border-radius: 400px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: .5s;
+}
+.button-main:hover{
+  border: 3px solid rgba(0, 0, 0, 1);
+}
+
+
+
+
+.qubi {
+	background: linear-gradient(315deg, rgba(18,60,255,1) 0%, rgba(0,212,255,1) 100%);
+	background-size: 500%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 10s ease-in-out infinite;
+	-moz-animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 10s ease-in-out infinite;
+}
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+
+#enter1{
+  animation: enter 2s;
+  margin: 0;
+}
+#enter2{
+  animation: enter 5s;
+}
+#enter3{
+  animation: enter 8s;
+}
+
+
+@keyframes enter {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
