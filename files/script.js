@@ -2,9 +2,9 @@ const params = new URLSearchParams(window.location.search);
 const file = params.get("f");
 var msg = document.getElementById('msg')
 
-if (file == "") {
+if (file == "null") {
   msg.innerHTML = "Error: no file id provided"
 }
 else{
-  window.location.replace.href("https://qbifiles.000webhostapp.com/"+file);
+  window.location = "https://qbifiles.000webhostapp.com/" + file;
 }
