@@ -6,5 +6,5 @@ if (file == "") {
   msg.innerHTML = "Error: no file id provided"
 }
 else{
-  window.location.replace("qbifiles.000webhostapp.com/"+file);
+  window.location.replace.href("https://qbifiles.000webhostapp.com/"+file);
 }
