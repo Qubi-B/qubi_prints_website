@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
-} 
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body{
   border: 0;
   margin: 0;
@@ -28,10 +30,15 @@ h3{
   vertical-align: middle;
   font-size: 3vh;
 }
-a{
-
-
+h4{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 5vh;
 }
+
+
 .navbar{
   overflow: hidden;
   background-color: #202328;
@@ -41,6 +48,7 @@ a{
   display: table-cell;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 .table{
   display: table;
@@ -89,9 +97,24 @@ a{
 .button-main:hover{
   border: 3px solid rgba(0, 0, 0, 1);
 }
+.projects{
+  background-color: #202328;
+  width: 100%;
+  padding: 60px;
+  text-align: center;
+
+}
+.product{
+  display: inline;
+}
+.product img{
+  height: 5vw;
+}
 
 
-
+.inline{
+  display: inline-block;
+}
 
 .qubi {
 	background: linear-gradient(315deg, rgba(18,60,255,1) 0%, rgba(0,212,255,1) 100%);
