@@ -32,10 +32,10 @@ body{
 .progress .color{
     position: absolute;
     background-color: #ffffff;
-    width: 0px;
+    width: 100%;
     height: 10px;
     border-radius: 15px;
-    animation: progress 4s infinite ease-in-out;
+    animation: progress 4s ease-in-out;
 }
 @keyframes progress{
     0%{
