@@ -14,6 +14,12 @@ body{
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
 }
+h1{
+  font-size: 5vh;
+}
+p{
+  font-size: 2vh; 
+}
 .text{
   text-align: center;
   position: absolute;
