@@ -14,14 +14,14 @@ else{
   msg.innerHTML = "Checking file...";
   msg.style.color = "White";
 
-  var url = "http://qbifiles.000webhostapp.com/" + file;
+  var url = "http://qbifiles.000webhostapp.com/file/" + file;
   var img = new Image();
   img.src = url;
   img.onload = function()
   {
     msg.innerHTML = "You will be redirected soon...";
     msg.style.color = "Green";
-    window.location = "http://qbifiles.000webhostapp.com/" + file;
+    window.location = url;
   }
   img.onerror = function()
   {
