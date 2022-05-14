@@ -9,8 +9,11 @@ body{
   padding: 0;
   height: 100%;
   width: 100%;
-  background-image: url('https://raw.githubusercontent.com/Qubi-B/qubi_be_website/main/darkclouds.jpg');
-  background-color: #202328;
+  background-image: url();
+  background-color: #101214;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -41,8 +44,8 @@ h4{
 
 .navbar{
   overflow: hidden;
-  background-color: #202328;
-  height: 10vh;
+  background-color: #101214;
+  height: 8vh;
   border-bottom: 2px dotted #0097e6;
   vertical-align:middle;
   display: table-cell;
@@ -54,11 +57,12 @@ h4{
   display: table;
 }
 .content{
-  vertical-align:middle;
-  height: 100vh;
+  vertical-align: middle;
+  height: 90vh;
   display: table-cell;
   position: relative;
   padding-left: 40px;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 7%, rgba(0,0,0,0.6502801804315477) 45%, rgba(255,255,255,0) 100%);
 }
 .button{
   background-color: transparent;
@@ -97,8 +101,8 @@ h4{
 .button-main:hover{
   border: 3px solid rgba(0, 0, 0, 1);
 }
-.projects{
-  background-color: #202328;
+.pakiety{
+  background-color: #101214;
   width: 100%;
   padding: 60px;
   text-align: center;
