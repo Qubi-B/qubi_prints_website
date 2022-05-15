@@ -63,6 +63,16 @@ h4{
   position: relative;
   padding-left: 40px;
   background: linear-gradient(90deg, rgba(0,0,0,1) 7%, rgba(0,0,0,0.6502801804315477) 55%, rgba(255,255,255,0) 100%);
+  background-repeat: no-repeat;
+  animation: txtbg 1s ease-in;
+}
+.pcard{
+  vertical-align: middle;
+  height: 20vh;
+  display: table-cell;
+  position: relative;
+  padding: 10px;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 7%, rgba(0,0,0,0.6502801804315477) 55%, rgba(255,255,255,0) 100%);
 }
 .button{
   background-color: transparent;
@@ -136,18 +146,23 @@ h4{
 }
 
 #enter1{
-  animation: enter 2s;
+  animation: enter 1s;
   margin: 0;
 }
 #enter2{
-  animation: enter 5s;
+  animation: enter 2s;
 }
 #enter3{
-  animation: enter 8s;
+  animation: enter 4s;
 }
 
 
 @keyframes enter {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes txtbg {
+  0% { background-position: -89vh 0px; }
+  100% { background-position: 0px 0px;}
 }
