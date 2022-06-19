@@ -9,7 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="fav.ico">
   </head>
-  <body>
+  <script type="text/javascript">
+    function stopload(){
+      ld = document.getElementById("load");
+      ld.style.animation = "outld .5s";
+      setTimeout(function(){
+        ld.style.opacity = 0;
+        ld.style.height = 0;
+        ld.style.width = 0;
+      }, 500);
+
+    }
+  </script>
+  <body onload="stopload()">
     <div class="table">
       <div class="navbar">
         <h3 class="qubi">Qbi.prints</h2>
@@ -19,19 +31,41 @@
       <div class="content" id="content">
         <h1 id="enter1">Wydrukuj swój projekt w <span class="qubi">3D</span>.</h1>
         <h2 id="enter2">Niedrogie, szybkie i wysokiej jakości produkty.</h2>
-        <a href="#projects" class="button-main" id="enter3">Zamów wydruk</a>
-        <a href="#" class="button" id="enter3">Zobacz ofertę</a>
+        <a href="#projects" class="button-main" id="enter3">Zobacz możliwości</a>
+        <a href="#" class="button" id="enter3">Zamów wydruk</a>
         <p>Foto: <a class="qubi" id="image" href="https://unsplash.com/photos/HsefvbLbNWc">(link)</a></p>
       </div>
     </div>
     <div class="table" id="projects">
       <div class="pakiety">
-        <h4>Pakiety</h4>
-        <p style="font-size: 20px;">Wybierz gabaryt wydruku aby kontynuować:</p>
-        <a href="#projects" class="button" id="enter3">Show me!</a>
+        <h4>Usługi</h4>
+        <div class="flex">
+          <div class="service">
+            <img src="png/003-prototype.png" alt="" height="125px;">
+            <h2>Realizacja konceptu</h2>
+            <p>Dostarcz rysunki koncepcyjne lub techniczne, a wspólnie stworzymy model odpowiedni do druku 3D.</p>
+          </div>
+          <div class="service">
+            <img src="png/002-3d-cube.png" alt="" height="125px;">
+            <h2>Replikacja produktu</h2>
+            <p>Potrzebujesz drugiej takiej samej części? Dostarcz ją, a postaram się stworzyć identyczną.</p>
+          </div>
+          <div class="service">
+            <img src="png/001-3d-printing.png" alt="" height="125px;">
+            <h2>Wydruk z twojego projektu</h2>
+            <p>Masz model w formacie STL? Prześlij plik, Twój model zostanie wydrukowany i wysłany do Ciebie.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loadingscreen" id="load">
+      <div class="load">
+        <img src="media/blocks-shuffle-3-white-36.svg" alt="">
       </div>
     </div>
   </body>
 
   <script src="img.js" charset="utf-8"></script>
+
+
 </html>
