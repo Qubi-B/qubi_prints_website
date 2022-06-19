@@ -114,15 +114,42 @@ h4{
 .pakiety{
   background-color: #101214;
   width: 100%;
-  padding: 60px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   text-align: center;
-
 }
+
 .product{
   display: inline;
 }
 .product img{
   height: 5vw;
+}
+.flex{
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.service{
+  width: 300px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #181b1e;
+  background-color: #181b1e;
+  border-radius: 15px;
+  transition: .5s;
+}
+
+.service:hover{
+  border: 2px solid #22272b;
+  background-color: #22272b;
 }
 
 
@@ -162,7 +189,32 @@ h4{
   100% { opacity: 1; }
 }
 
+@keyframes outld {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 @keyframes txtbg {
   0% { background-position: -89vh 0px; }
   100% { background-position: 0px 0px;}
+}
+
+.loadingscreen{
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 101;
+}
+.loadingscreen .load{
+  position: fixed;
+  z-index: 102;
+  text-align: center;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
