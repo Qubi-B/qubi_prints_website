@@ -20,7 +20,7 @@ body{
 div{
   width: 100%;
 }
-h5{
+.headertext{
   font-size: 8vh;
   vertical-align: middle;
 }
