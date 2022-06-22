@@ -9,7 +9,6 @@ body{
   padding: 0;
   height: 100%;
   width: 100%;
-  background-image: url();
   background-color: #101214;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,10 +16,17 @@ body{
   color: white;
   font-family: 'Josefin Sans', sans-serif;
 }
+#intro{
+  background-image: url();
+  background-color: #101214;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 div{
   width: 100%;
 }
-.headertext{
+h5{
   font-size: 8vh;
   vertical-align: middle;
 }
@@ -243,5 +249,5 @@ h4{
   height: 5vh;
 }
 .credits{
-  font-size: 2vh;
+  font-size: 1.5vh;
 }

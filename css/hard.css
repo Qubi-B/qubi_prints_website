@@ -1,0 +1,28 @@
+.hard{
+  width: 100%;
+  text-align: right;
+}
+.hard_content{
+  width: 75%;
+  margin: auto;
+  text-align: left;
+}
+.hard_content > table{
+  width: 100%;
+}
+.hard_content > table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  /*padding: 0.3vh;*/
+}
+
+.hard_content > td {
+  padding: 0.5vh;
+}
+.hard_content > h3{
+  margin: 0;
+  padding-left: 0;
+}
+.hard_content > p{
+  margin-top: 0;
+}
