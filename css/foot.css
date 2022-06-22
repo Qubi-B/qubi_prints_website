@@ -1,0 +1,25 @@
+.footer{
+  background-color: #000000;
+  width: 100%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.footer_content{
+  width: 90%;
+  margin: auto;
+}
+.footer_content > p {
+  margin-left: 20px;
+}
+.footer_content > h3 {
+  padding-left: 0;
+}
+#lastline{
+  text-align: center;
+  color: gray;
+}
+.footer_content > table, .footer_content > tr, .footer_content > td, .tde {
+  padding-left: 0;
+  padding-right: 8px;
+  border: 0;
+}
