@@ -16,6 +16,13 @@ body{
   color: white;
   font-family: 'Josefin Sans', sans-serif;
 }
+.menuuu{
+  text-align: right;
+  width: 98%;
+  z-index: 100;
+  position: fixed;
+  margin-top: 3vh;
+}
 #intro{
   background-image: url();
   background-color: #101214;

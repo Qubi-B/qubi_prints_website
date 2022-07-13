@@ -8,12 +8,14 @@
   text-align: left;
 }
 .hard_content > table{
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 .hard_content > table, th, td {
-  border: 2px solid white;
+  border: 1px solid gray;
   border-collapse: collapse;
-  /*padding: 0.3vh;*/
+  padding: 0.3vh;
+  padding-left: 1vh;
 }
 
 .hard_content > td {
