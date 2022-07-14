@@ -1,0 +1,28 @@
+body{
+  background: black;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+.alert{
+  background: yellow;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+.text{
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  /*font-weight: bold;*/
+  color: black;
+}
+.text > p > img {
+  height: 2vh;
+}
