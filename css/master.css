@@ -261,3 +261,8 @@ h4{
 .social_icon{
   height: 3vh;
 }
+
+#nounderline{
+  text-decoration: none;
+  color: white;
+}
