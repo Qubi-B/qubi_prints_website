@@ -1,0 +1,36 @@
+.loading{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 5001;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.loading_centerbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loading_logo{
+    height: 8vh;
+}
+.loading_text{
+    color: white;
+    font-size: 2vh;
+    animation: loadtext;
+    animation-duration: 1s;
+    animation-timing-function: fade-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes loadtext{
+    0%{color: #888}
+    100%{color: #fff}
+}
+@keyframes outld {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }

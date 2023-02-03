@@ -1,0 +1,124 @@
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body{
+  background: black;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.main_text h1{
+  font-size: 7vh;
+  margin-bottom: 0;
+}
+.main_text h3{
+  font-size: 3vh;
+  margin-top: 0;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 12vh;
+  width: 100vw;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.05) 100%);
+  z-index: 5000;
+}
+
+
+.main{
+  /*background-image: url(https://images.unsplash.com/photo-1534996858221-380b92700493);*/
+  /*background-image: url(https://images.unsplash.com/photo-1508379748716-9d2d1c63db1b);*/
+  /*background-image: url(https://images.unsplash.com/photo-1572792644425-e9524a8aa2ab);*/
+  background-image: url(https://images.unsplash.com/photo-1616427030011-214e41469f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80);
+  background-position: 0% 40%;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.main_logo{
+  height: 6.5vh;
+  position: absolute;
+  top: 50%;
+  transform: translate(20px, -50%);
+}
+.main_text{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translate(0px, -50%);
+  text-shadow: 0px 0px 12px black;
+}
+.main_arrow{
+  position: absolute;
+  bottom: 5vh;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  font-size: 2vh;
+}
+.main_arrow_container{
+  margin: auto;
+}
+.main_arrow img{
+  height: 3vh;
+}
+.main_arrow img{
+  margin-bottom: 0px;
+  border-bottom: 0;
+  animation-name: arrow;
+  animation-duration: 2.5s;
+  animation-direction: normal;
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out;
+}
+.main_arrow p{
+  margin-top: 8px;
+}
+.logos{
+  height: 20vh;
+  background-color: #222;
+}
+
+
+.info{
+  background: #111;
+}
+
+.menuicon{
+  height: 2.5vh;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 5vw;
+  cursor: pointer;
+}
+
+@keyframes arrow {
+  0% {margin-bottom: 0px;}
+  50% {margin-bottom: 10px;}
+  100% {margin-bottom: 0px;}
+}
+.credits{
+  font-size: 0.8rem;
+}
+.qubi{
+  color: gray;
+}
+a:link, a:visited, a:hover, a:active{
+  color: white;
+  text-decoration: none;
+}
+
+.social_icon{
+  height: 3vh;
+}

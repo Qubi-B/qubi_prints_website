@@ -1,0 +1,34 @@
+.hard{
+    width: 100%;
+    text-align: left;
+    background-color: #111111;
+  
+  }
+  .hard_content{
+    margin: auto;
+    text-align: left;
+  }
+  .hard_img{
+    background-image: url("https://rupturetech.com/wp-content/uploads/2020/03/FilamentWebsite.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 30vw;
+    min-height: 30vh;
+  }
+  .hard_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 2vw;
+    border-radius: 15px;
+  }
+  .hard_wrapper div{
+    width: 44%;
+    min-width: 400px;
+    margin: auto;
+    border: 0px solid none;
+    border-radius: 15px;
+  }
